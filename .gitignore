@@ -1,0 +1,6 @@
+venv/
+*.plan
+!scratch.plan
+*.csv
+!example.csv
+.idea/
