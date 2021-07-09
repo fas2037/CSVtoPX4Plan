@@ -51,7 +51,8 @@ def create_speed_item(speed):
 
 
 def create_mission_item(row):
-    result = create_speed_item(row[3])
+    # result = create_speed_item(row[3])
+    result = ''
     result += '\n{\n'
     result += '\t\"AMSLAltAboveTerrain\": null,\n'
     result += '\t"Altitude": '
@@ -99,9 +100,9 @@ def ending():
 
 def planned_home():
     result = ('\"plannedHomePosition": [\n'
-              '48.6869697,\n'
-              '11.5324518,\n'
-              '365.2486635615994\n'
+              '48.683117,\n'
+              '11.544568,\n'
+              '366.0\n'
               '],\n'
               )
     return result
